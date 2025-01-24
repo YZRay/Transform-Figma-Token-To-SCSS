@@ -1,0 +1,17 @@
+{
+  "name": "transform-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "transform": "node transform-token.cjs && node build-output.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tokens-studio/sd-transforms": "^1.2.9",
+    "style-dictionary": "^4.3.2",
+    "token-transformer": "^0.0.33"
+  }
+}
