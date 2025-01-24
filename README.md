@@ -8,7 +8,7 @@
    `transform-token.cjs` 會從原始的 `tokens.json` 文件讀取 Tokens，並使用 `token-transformer` 進行轉換處理。轉換後的結果會存儲在 `tokens-transformed.json` 文件中。轉換過程會依據 `transformerOptions` 設定來處理字體、邊界、陰影等屬性。
 
 2. **構建 SCSS 和 CSS 文件**
-   `build-output.js` 會讀取 `tokens-transformed.json`，並基於該文件生成對應的 SCSS 變數和 CSS 變數，並將其保存到 `src/scss/helpers/` 目錄下，這樣前端開發者就可以使用這些變數來確保設計的一致性。
+   `build-output.js` 會讀取 `tokens-transformed.json`，並基於該文件生成對應的 SCSS 變數和 CSS 變數，並將其保存到 `src/scss/helpers/` 目錄下。
 
 ## 使用指令
 
